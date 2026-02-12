@@ -1,0 +1,94 @@
+[
+  {
+    "timestamp": "2026-02-12T05:47:21.470271",
+    "query": "1 plus 1 EQUAL TO?",
+    "distance_analysis": "Retrieved 3 results with cosine distances: ['0.9206', '0.9303', '0.9404']. Average semantic distance: 0.9305 (lower = more similar)",
+    "results": {
+      "ids": [
+        [
+          "01__PRT Policy & Operational Tables",
+          "00__PRT Policy & Operational Tables",
+          "02__Premium Adjustments (PAPT) & Data True-Ups"
+        ]
+      ],
+      "embeddings": null,
+      "documents": [
+        [
+          "<p>The <b>Annuity Factor Table</b> is a critical component of the policy document. This table provides the 'conversion rates' used for the PAPT. It tells you exactly how much the premium will increase or decrease for every $1 of monthly pension added or removed during the True-Up. As an analyst, you use this table to verify that the insurer\u2019s final invoice aligns with the bid's 'Unit Costs.'</p>\n",
+          "<p>A <b>Policy Comparison Table</b> is a standard tool used during the bid evaluation phase. It lists every insurer\u2019s bid side-by-side, comparing not just the 'Final Premium' but also the <b>'Price Validity Period'</b> (often as short as 48 hours), the credit ratings (S&P/Moody\u2019s), and the specific 'Data Risk' exclusions each company has inserted into their contract.</p>\n",
+          "<p>Premium adjustments often arise from <b>'Death-Before-Closing'</b> events. If a member passes away after the data snapshot but before the transition, the premium must be adjusted to reflect a survivor benefit or a full removal of the liability. The PAPT calculation typically uses a pre-agreed <b>'Unit Cost'</b> or a <b>'Delta'</b> method to ensure the pricing remains fair and consistent with the original bid.</p>\n"
+        ]
+      ],
+      "uris": null,
+      "included": [
+        "metadatas",
+        "documents",
+        "distances"
+      ],
+      "data": null,
+      "metadatas": [
+        [
+          {
+            "topic": "PRT Policy & Operational Tables"
+          },
+          {
+            "topic": "PRT Policy & Operational Tables"
+          },
+          {
+            "topic": "Premium Adjustments (PAPT) & Data True-Ups"
+          }
+        ]
+      ],
+      "distances": [
+        [
+          0.9206462502479553,
+          0.9303281307220459,
+          0.940417468547821
+        ]
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-02-12T05:47:21.470299",
+    "query": "Are there any posts about Premium Adjustments?",
+    "distance_analysis": "Retrieved 2 results with cosine distances: ['0.4701', '0.4953']. Average semantic distance: 0.4827 (lower = more similar)",
+    "results": {
+      "ids": [
+        [
+          "02__Premium Adjustments (PAPT) & Data True-Ups",
+          "04__Premium Adjustments (PAPT) & Data True-Ups"
+        ]
+      ],
+      "embeddings": null,
+      "documents": [
+        [
+          "<p>Premium adjustments often arise from <b>'Death-Before-Closing'</b> events. If a member passes away after the data snapshot but before the transition, the premium must be adjusted to reflect a survivor benefit or a full removal of the liability. The PAPT calculation typically uses a pre-agreed <b>'Unit Cost'</b> or a <b>'Delta'</b> method to ensure the pricing remains fair and consistent with the original bid.</p>\n",
+          "<p>For plans with <b>Salary-Linked Benefits</b>, the premium adjustment must account for final pay increases. If a member retires during the DVP and their final average earnings are higher than estimated, the sponsor must pay an additional premium. These 'True-Ups' are often the largest source of cost variance in a Canadian PRT transaction and require a specific budget contingency from the sponsor.</p>\n"
+        ]
+      ],
+      "uris": null,
+      "included": [
+        "metadatas",
+        "documents",
+        "distances"
+      ],
+      "data": null,
+      "metadatas": [
+        [
+          {
+            "topic": "Premium Adjustments (PAPT) & Data True-Ups"
+          },
+          {
+            "topic": "Premium Adjustments (PAPT) & Data True-Ups"
+          }
+        ]
+      ],
+      "distances": [
+        [
+          0.47012656927108765,
+          0.49526017904281616
+        ]
+      ]
+    }
+  }
+]

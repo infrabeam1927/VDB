@@ -1,0 +1,92 @@
+[
+  {
+    "query": "Buy-In Annuity",
+    "distance_analysis": "Retrieved 3 results with cosine distances: ['0.3069', '0.3701', '0.5569']. Average semantic distance: 0.4113 (lower = more similar)",
+    "results": {
+      "ids": [
+        [
+          "00__Buy-In vs. Buy-Out Comparisons",
+          "01__Buy-In vs. Buy-Out Comparisons",
+          "01__PRT Policy & Operational Tables"
+        ]
+      ],
+      "embeddings": null,
+      "documents": [
+        [
+          "<p>A <b>Buy-In Annuity</b> is an insurance policy issued to the plan sponsor and held as an asset of the pension fund. It hedges against investment, longevity, and inflation risks without removing the liability from the plan\u2019s balance sheet. In Canada, this is often the first step in a 'de-risking journey,' allowing the sponsor to 'tranche' the purchase over several years as funding allows.</p>\n",
+          "<p>In a <b>Buy-Out Annuity</b>, the insurer assumes full legal responsibility for the monthly payments. Each member becomes an individual policyholder of the insurer. This triggers an 'accounting settlement,' which can result in a significant one-time charge to the sponsor\u2019s income statement, but it completely removes the risk of future 'top-up' contributions being required if the plan hits a deficit.</p>\n",
+          "<p>The <b>Annuity Factor Table</b> is a critical component of the policy document. This table provides the 'conversion rates' used for the PAPT. It tells you exactly how much the premium will increase or decrease for every $1 of monthly pension added or removed during the True-Up. As an analyst, you use this table to verify that the insurer\u2019s final invoice aligns with the bid's 'Unit Costs.'</p>\n"
+        ]
+      ],
+      "uris": null,
+      "included": [
+        "metadatas",
+        "documents",
+        "distances"
+      ],
+      "data": null,
+      "metadatas": [
+        [
+          {
+            "topic": "Buy-In vs. Buy-Out Comparisons"
+          },
+          {
+            "topic": "Buy-In vs. Buy-Out Comparisons"
+          },
+          {
+            "topic": "PRT Policy & Operational Tables"
+          }
+        ]
+      ],
+      "distances": [
+        [
+          0.30694693326950073,
+          0.3701287508010864,
+          0.556870698928833
+        ]
+      ]
+    }
+  },
+  {
+    "query": "Are there any posts about Premium Adjustments?",
+    "distance_analysis": "Retrieved 2 results with cosine distances: ['0.4701', '0.4953']. Average semantic distance: 0.4827 (lower = more similar)",
+    "results": {
+      "ids": [
+        [
+          "02__Premium Adjustments (PAPT) & Data True-Ups",
+          "04__Premium Adjustments (PAPT) & Data True-Ups"
+        ]
+      ],
+      "embeddings": null,
+      "documents": [
+        [
+          "<p>Premium adjustments often arise from <b>'Death-Before-Closing'</b> events. If a member passes away after the data snapshot but before the transition, the premium must be adjusted to reflect a survivor benefit or a full removal of the liability. The PAPT calculation typically uses a pre-agreed <b>'Unit Cost'</b> or a <b>'Delta'</b> method to ensure the pricing remains fair and consistent with the original bid.</p>\n",
+          "<p>For plans with <b>Salary-Linked Benefits</b>, the premium adjustment must account for final pay increases. If a member retires during the DVP and their final average earnings are higher than estimated, the sponsor must pay an additional premium. These 'True-Ups' are often the largest source of cost variance in a Canadian PRT transaction and require a specific budget contingency from the sponsor.</p>\n"
+        ]
+      ],
+      "uris": null,
+      "included": [
+        "metadatas",
+        "documents",
+        "distances"
+      ],
+      "data": null,
+      "metadatas": [
+        [
+          {
+            "topic": "Premium Adjustments (PAPT) & Data True-Ups"
+          },
+          {
+            "topic": "Premium Adjustments (PAPT) & Data True-Ups"
+          }
+        ]
+      ],
+      "distances": [
+        [
+          0.47012656927108765,
+          0.49526017904281616
+        ]
+      ]
+    }
+  }
+]
